@@ -120,21 +120,22 @@ function populateProfileUI(profile) {
     document.getElementById("displayName").innerText = profile.display_name || 'N/A';
     document.getElementById("id").innerText = profile.id || 'N/A';
     document.getElementById("email").innerText = profile.email || 'N/A';
-    document.getElementById("uri").innerText = profile.uri || 'N/A';
     document.getElementById("uri").setAttribute("href", profile.external_urls.spotify || '#');
-    document.getElementById("url").innerText = profile.href || 'N/A';
     document.getElementById("url").setAttribute("href", profile.href || '#');
+
+    // Access the <img> element directly
     const avatar = document.getElementById("avatar");
-    avatar.innerHTML = '';  // Clear existing images
-    if (profile.images && profile.images[0]) {
-        const profileImage = new Image(200, 200);
-        profileImage.src = profile.images[0].url;
-        avatar.appendChild(profileImage);
+
+    // Check if there are images and use the first one, otherwise use the default
+    if (profile.images && profile.images.length > 0) {
+        avatar.src = profile.images[0].url;
         document.getElementById("imgUrl").innerText = profile.images[0].url;
     } else {
-        document.getElementById("imgUrl").innerText = 'No image available';
+        avatar.src = 'img/spotify_default.png'; // Ensure this path is correct
+        document.getElementById("imgUrl").innerText = 'Default image used';
     }
 }
+
 
 function populateTopTracksUI(tracks) {
     const tracksList = document.getElementById("tracksList");
