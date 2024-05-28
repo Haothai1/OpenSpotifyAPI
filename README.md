@@ -18,7 +18,7 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/40f84c4a-d929-4550-80ef-60463b7e1dd5' title='Video Walkthrough' width='750' alt='Video Walkthrough' />
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/49836f6e-dd6b-4a07-9e03-ecf0962ef782' title='Video Walkthrough' width='750' alt='Video Walkthrough' />
 
-4. Open the project in VScode if you haven't already. You can do so in the terminal:
+4. Open the project in VScode if you haven't already, you can do so in the terminal:
    ```sh
    code OpenSpotifyAPI
    ```
