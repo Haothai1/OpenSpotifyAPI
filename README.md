@@ -2,6 +2,14 @@
 ## Description
 This project demonstrates how to load and display data from the Spotify API using HTML, CSS, JavaScript, and TypeScript. The app will require you use an API key to login to a spotify account then display the user profile information and the top five songs of the user.
 
+## App Features:
+1. Display user Profile information.
+   
+   <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/511c0e37-740f-49aa-a264-d2d932371d52' title='Video Walkthrough' width='850' alt='Video Walkthrough' />
+   
+2. Display user's Top 5 songs played.
+   
+   <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/94265dd7-f94e-4b05-a59a-0190ccb7712b' title='Video Walkthrough' width='850' alt='Video Walkthrough' />
 
 ## Setup
 If you do not already have Git and NodeJS install it (Pick the latest LTS download for your system):
@@ -73,7 +81,8 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
 13. You will be brought to a web page. Sign-in to the Spotify email you used for your Spotify web API to get your user profile information and Top 5 songs.
     (Note: Using two separate emails will not work, they must be the same email for both your Spotify account and the Spotify Web API).
     <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/b3bd7436-5347-49de-809c-c1b02585c914' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
-    
+
+
 
 ## Troubleshooting (No data is displayed)
 1. Relaunch the application by going to the terminal and pressing ctrl+c and typing npm run dev if there are any issues.
