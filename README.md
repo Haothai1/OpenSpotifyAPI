@@ -26,17 +26,20 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
    
 ## Run the APP locally with your own API key:
 5. Create an SpotifyWeb account: https://developer.spotify.com/
-   * Login to your Spotify Account (this email will be used for both your Spotify account and the Spotify web API access) and click on your user icon.
+   * Login to your Spotify Account (this email will be used for both your Spotify account and the Spotify web API access) and click on your user icon.  
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/1eecd622-0711-40d0-8a75-493a8c9a908a' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
 
+
    * Verify your account with your email.
+     
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/7f99115f-5b44-44dd-874d-3d2d7f29f072' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
 
    * Create your API Key.
+     
      <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/1a29dd16-7661-40cb-948b-c7a86524b282' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
      
 
-6. Copy and paste your Client ID (or API key) in index.js file. The index.js file can be found under the src folder.
+5. Copy and paste your Client ID (or API key) in index.js file. The index.js file can be found under the src folder.
    (Note: You can skip this step if you send the owner your email to give you access to use their key instead of creating your own API key)
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/728de01e-fce9-435d-877e-97f61e1e76fd' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
    
