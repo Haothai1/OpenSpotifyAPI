@@ -44,7 +44,6 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
    
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/cd4e0a6c-cc54-4840-989d-6cf0b1e0a678' title='Video Walkthrough' width='750' alt='Video Walkthrough' />
    
-   
 
 8. 4. Make sure you are in the directory of the project in the terminal:
    ```sh
@@ -67,6 +66,7 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
    ```
 
 11. Click on the provided link after running npm run dev.
+    
     <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/cfb14298-5415-49c5-ae8b-5c4e91e269c3' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
     
 
@@ -81,8 +81,6 @@ If you do not already have Git and NodeJS install it (Pick the latest LTS downlo
    
     <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/39dfcfe2-5107-43c4-9227-bbbe9448a146' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
    
-
-
 
 ## Usage
 - The application will redirect you to the Spotify authorization page.
