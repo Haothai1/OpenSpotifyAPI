@@ -4,7 +4,7 @@ This project demonstrates how to load and display data from the Spotify API usin
 
 
 ## Setup
-If you do not already have Git and NodeJS install it:
+If you do not already have Git and NodeJS install it (Pick the latest LTS download for your system):
 1. Download Git to use git commands: https://git-scm.com/downloads
    <img src='https://github.com/Haothai1/OpenSpotifyAPI/assets/100315684/dd98b725-e9f3-4000-b7f6-c82c407116a5' title='Video Walkthrough' width='550' alt='Video Walkthrough' />
 2. Install nodeJS: https://nodejs.org/en/download/package-manager
