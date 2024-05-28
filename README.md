@@ -2,10 +2,11 @@
 ## Description
 This project demonstrates how to load and display data from the Spotify API using HTML, CSS, and JavaScript. The app will require you to login to a spotify account then display the user profile information and the top five songs of the user.
 
+
 ## Setup
 If you do not already have Git install it:
 1. Download Git to use git commands: https://git-scm.com/downloads
-2. Create an SpotifyWeb account, then paste your API key....
+
 
 ## Setting up the environment to run OpenSpotifyAPI:
 1. Download or clone this repository to your local machine by typing:
@@ -32,6 +33,9 @@ If you do not already have Git install it:
 7. Click on the provided link after running npm run dev.
 7. Sign-in to spotify to get your user profile information and Top 5 songs.
 9. Relaunch the application by going to the terminal and pressing ctrl+c and typing npm run dev if there are any issues.
+
+## Run the APP locally with your own API key:
+1. Create an SpotifyWeb account, then paste your API key....
 
 ## Usage
 - The application will redirect you to the Spotify authorization page.
