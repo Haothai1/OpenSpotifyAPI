@@ -1,5 +1,7 @@
 /* authCodeWithPkce.ts */
 
+/* Built with starter functions provided by Spotify for developers */
+// Function to initiate the authorization code flow with PKCE
 export async function redirectToAuthCodeFlow(clientId: string) {
     const verifier = generateCodeVerifier(128);
     const challenge = await generateCodeChallenge(verifier);
@@ -16,7 +18,7 @@ export async function redirectToAuthCodeFlow(clientId: string) {
 
     document.location = `https://accounts.spotify.com/authorize?${params.toString()}`;
 }
-
+// Function to exchange the authorization code for an access token
 export async function getAccessToken(clientId: string, code: string) {
     const verifier = localStorage.getItem("verifier");
 
@@ -36,7 +38,7 @@ export async function getAccessToken(clientId: string, code: string) {
     const { access_token } = await result.json();
     return access_token;
 }
-
+// Function to generate a random code verifier of the specified length
 function generateCodeVerifier(length: number) {
     let text = '';
     let possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -47,6 +49,7 @@ function generateCodeVerifier(length: number) {
     return text;
 }
 
+// Function to generate a code challenge from the code verifier
 async function generateCodeChallenge(codeVerifier: string) {
     const data = new TextEncoder().encode(codeVerifier);
     const digest = await window.crypto.subtle.digest('SHA-256', data);
